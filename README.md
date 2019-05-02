@@ -16,8 +16,6 @@ The below command allows to install all the dependencies of the application
 
 ### Start the application
 
-Start the application
-
 Use the below command to create the new messenger group
 ``` node chat.js ```
 
@@ -31,62 +29,62 @@ Use the below command to the join the existing messenger group
 
 ### create()
 
-create() helps to instantiate the application, Allows to create metadata if no broadcastID is available and appends it to the beginning of the log
+`create() helps to instantiate the application, Allows to create metadata if no broadcastID is available and appends it to the beginning of the log`
 
 ### isAppReady()
 
-Verify the current status of the application
+`Verify the current status of the application`
 
 
 ### merge(sourceID,destinationID)
 
-Allows to merge current state of the application to the remote state of the application
+`Allows to merge current state of the application to the remote state of the application`
 
 ### contains(docID)
 
-Check whether the current state consits of the automerge document with docID
+`Check whether the current state consits of the automerge document with docID`
 
 
 ### change (doc, message, changeFx => {})
 
-Updates the automerge document with the current changes, this is a wrapper to an automerge function, for more information please look at the automerge library about Automerge.change(doc, message, changeFx => {})
+`Updates the automerge document with the current changes, this is a wrapper to an automerge function, for more information please look at the automerge library about Automerge.change(doc, message, changeFx => {})`
 
 ### length(actorID)
 
-Gives length of the current log for agive actor
+`Gives length of the current log for agive actor`
 
 ### hasLock (actorId) 
 
-Check whether the given actor can modify the logs or not
+`Check whether the given actor can modify the logs or not`
 
 ### cleanState()
 
-Clean the current state of the application
+`Clean the current state of the application`
 
 ### joinBroadcastGroup (options = {})
 
-Join the  broadcast group 
+`Join the  broadcast group `
 
 ### replicate()
 
-Replicate the logs manually across all the peers.
-helps to pass existing state to all the peers once available
+`Replicate the logs manually across all the peers.
+helps to pass existing state to all the peers once available`
 
 ### message()
 
-Broadcast message to all the members in the swarm with same broadcastID
+`Broadcast message to all the members in the swarm with same broadcastID`
 
 ### feed()
 
-Get the current log state of the application
+`Get the current log state of the application`
 
 ### appendData(actorID,(change) => {})
 
-Append data blocks to the current log
+`Append data blocks to the current log`
 
 ### appendDataBlocks(changes) 
 
-Appends multiple datablocks to the log
+`Appends multiple datablocks to the log`
 
 
 
