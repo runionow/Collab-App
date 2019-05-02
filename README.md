@@ -86,6 +86,8 @@ helps to pass existing state to all the peers once available`
 
 `Appends multiple datablocks to the log`
 
+This project has been done as a part of Distributed Systems coursework (C) 2019 Arun Nekkalapudi anekkal@iu.edu, Indiana University Bloomington.
+
 
 
 
